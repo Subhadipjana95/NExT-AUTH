@@ -6,13 +6,13 @@ import axios from "axios";
 import toast from "react-hot-toast";
 
 const signupPage = () => {
+  const router = useRouter();
+  
   const [user, setUser] = React.useState({
     username: "",
     email: "",
     password: "",
   });
-
-  const router = useRouter();
 
   const [loading, setLoading] = React.useState(false);
   const [disabledButton, setDisabledButton] = React.useState(false);
