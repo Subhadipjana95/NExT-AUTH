@@ -7,7 +7,7 @@ import toast from "react-hot-toast";
 
 const signupPage = () => {
   const router = useRouter();
-  
+
   const [user, setUser] = React.useState({
     username: "",
     email: "",
@@ -45,7 +45,7 @@ const signupPage = () => {
   return (
     <>
       <div className=" flex justify-center align-center items-center flex-col gap-4 h-screen">
-        <h1 className="text-4xl mb-20 p-2 font-semibold bg-amber-500 text-black rounded">{loading ? "Loading..." : "Signup Page"}</h1>
+        <h1 className="text-4xl mb-20 p-2 font-semibold bg-amber-500 text-black rounded">{loading ? "Processing..." : "Signup Page"}</h1>
         <div className=" w-[20%] flex flex-col gap-4 rounded-lg p-3 border border-gray-600">
           {/* User Name Input */}
           <div className="flex flex-col gap-2 align-start">

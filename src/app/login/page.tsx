@@ -36,7 +36,7 @@ const loginPage = () => {
       const errorMessage =
         error.response?.data?.error || error.message || "Login failed";
       toast.error(errorMessage);
-      
+
     } finally {
       setLoading(false);
     }
@@ -46,7 +46,7 @@ const loginPage = () => {
     <>
       <div className=" flex justify-center align-center items-center flex-col gap-4 h-screen">
         <h1 className="text-4xl mb-20 p-2 font-semibold bg-blue-500 text-black rounded">
-          {loading ? "Loading..." : "Login Page"}
+          {loading ? "Processing..." : "Login Page"}
         </h1>
         <div className=" w-[20%] flex flex-col gap-4 rounded-lg p-3 border border-gray-600">
           {/* Email Input */}
