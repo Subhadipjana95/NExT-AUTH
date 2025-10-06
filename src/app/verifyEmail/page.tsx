@@ -12,7 +12,7 @@ const verifyEmailPage = () => {
 
     const verifyEmail = async () => {
         try {
-            const response = await axios.post("/api/users/verifyEmail", { token });
+            await axios.post("/api/users/verifyEmail", { token });
             setVerified(true);
             toast.success("Email verified successfully!");
         } catch (error: any) {
