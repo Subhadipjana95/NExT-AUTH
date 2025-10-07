@@ -1,5 +1,5 @@
 
-const profileIdPage = ({params}: any) => {
+const ProfileIdPage = ({params}: any) => {
   return (
     <div className=" flex justify-center align-center items-center h-screen">
       <h1 className="text-4xl">Profile
@@ -9,4 +9,4 @@ const profileIdPage = ({params}: any) => {
   );
 };
 
-export default profileIdPage;
+export default ProfileIdPage;

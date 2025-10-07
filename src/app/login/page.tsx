@@ -5,7 +5,7 @@ import { useRouter } from "next/navigation";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const loginPage = () => {
+const LoginPage = () => {
   const router = useRouter();
   const [user, setUser] = React.useState({
     email: "",
@@ -94,4 +94,4 @@ const loginPage = () => {
   );
 };
 
-export default loginPage;
+export default LoginPage;

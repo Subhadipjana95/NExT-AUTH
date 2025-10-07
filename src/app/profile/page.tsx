@@ -4,7 +4,7 @@ import { useRouter } from "next/navigation";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const profilePage = () => {
+const ProfilePage = () => {
   const router = useRouter();
   const logout = async () => {
     try {
@@ -35,4 +35,4 @@ const profilePage = () => {
   );
 };
 
-export default profilePage;
+export default ProfilePage;

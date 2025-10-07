@@ -5,7 +5,7 @@ import React, {useEffect, useState} from "react";
 import axios from "axios";
 import toast from "react-hot-toast";
 
-const verifyEmailPage = () => {
+const VerifyEmailPage = () => {
     const [token, setToken] = useState("");
     const [error, setError] = useState(false);
     const [verified, setVerified] = useState(false);
@@ -44,4 +44,4 @@ const verifyEmailPage = () => {
         </div>
     )
 }
-export default verifyEmailPage;
+export default VerifyEmailPage;
