@@ -293,6 +293,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 - GitHub: [@Subhadipjana95](https://github.com/Subhadipjana95)
 - Project Link: [NExT-AUTH](https://github.com/Subhadipjana95/NExT-START)
+- Live Link: [NExT-AUTHentication](https://nexty-auth.vercel.app/)
 
 ---
 
